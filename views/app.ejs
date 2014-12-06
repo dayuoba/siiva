@@ -1,0 +1,117 @@
+<html>
+<head>
+	<title>HTMLShopCS1</title>
+	<link rel="stylesheet" href="/stylesheets/main.css">
+	
+</head>
+<body   bgproperties="fixed">
+<ul id="Menu">
+	<li id="logo"><img src="/images/logo8.png" alt="logo" width="50px" height="36px"></li>
+	<li id="save"><b>生成</b> </li>
+	<li><a href="/download"><b>下载</b></a></li>
+	<li></li>
+	<li></li>
+</ul>
+<div id="login">
+	<% if (!user) { %> 
+<a href="/login" target="view_window">登入</a> 
+<a href="/reg" target="view_window">注册</a>
+<% } else { %> 
+<span>您好！<%=user.name %></span>
+	<a href="/logout">登出</a>
+<% } %> 
+</div>
+	<div id="ToolBar">
+		<table>
+			<tr>
+				<td id="div"><img src="/images/buttons/div.png" alt="div"></td>
+				<td id="select"><img src="/images/buttons/select.png" alt="select"></td>
+			</tr>
+			<tr>
+				<td id="xiangce"><img src="/images/buttons/xiangce.png" alt="xiangce"></td>
+				<td id="change"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+	<div id="showhide1"><img src="/images/buttons/showhide1.png" alt="showhide"></div>
+	<div id="showhide2"><img src="/images/buttons/showhide2.png" alt="showhide"></div>
+	
+	<div  style="border:1px solid silver;width:219px;height:36px"></div>
+	<div id="mousePosition_keleyi_com" style="border:1px solid silver;width:219px;height:25px"></div>
+	
+	<div class="propertybar" id="pb1">
+		<form id="myForm1" action="/upload" method="post" enctype="multipart/form-data"> 
+    	x: <input type="text"  id="x1"/> <br>
+    	y: <input type="text"  id="y1" /> <br>
+    	w: <input type="text"  id="w1" /> <br>
+    	h: <input type="text"  id="h1" /> <br>
+    	bgcolor: <input id="color1" class="color {required:false}"><br>
+    	pic: <input type="file" name="file" id="upload_pic1"><br>
+    	<input type="submit" value="确定" class="button_submit" /> <br>
+    	</form>
+    	<button class="button_cancle">取消</button><br>
+	</div>
+	<div class="propertybar" id="pb2">
+		<form id="myForm1" action="/upload" method="post" enctype="multipart/form-data"> 
+    	选择您要加入相册的图片: <br>	 
+    	<input type="file" name="file" class="xiangce_pic">
+    	<div class="button_add"></div>
+    	<input type="submit" value="确定" class="button_submit" /> 
+    	</form>
+    	<button class="button_cancle" >取消</button>
+	</div>
+	<div id="contrlbar">
+		<ul id="contrller">
+			<li id="contrlForCanvas">画布</li>
+			<li id="contrlForLayers">图层</li>
+			<li></li>
+		</ul>
+		<div id="showwindow1"></div>
+		<div id="showwindow2"></div>
+		<div id="showwindow3"></div>
+		<div id="contrlwindow1">
+			画布: <br>
+			<!-- <form id="myForm3" action="/upload" method="post" enctype="multipart/form-data"> --> 
+			宽:<input type="text" value=""><br>
+			高:<input type="text" value=""><br>
+			bgcolor: <input id="color3" class="color {required:false}"><br>
+			<!-- pic: <input type="file" name="file" id="upload_pic3"> -->
+			<button>确定</button>
+			<button>取消</button>
+			<!-- </form> -->
+		</div>
+		<div id="contrlwindow2">图层:<span id="contrlwindow2index"></span><br>
+			<form id="myForm2" action="/upload" method="post" enctype="multipart/form-data"> 
+    	x: <input type="text"  id="x2"/> 
+    	y: <input type="text"  id="y2" /> 
+    	w: <input type="text"  id="w2" /> 
+    	h: <input type="text"  id="h2" /> 
+    	bgcolor: <input id="color2" class="color {required:false}"><br>
+    	pic: <input type="file" name="file" id="upload_pic2">
+    	<input type="submit" value="确定" /> 
+    	</form>
+		</div>
+		<div id="contrlwindow3"></div>
+	</div>
+
+	<div id="footer"></div>
+	<canvas id="canvas" width=800 height=1000></canvas>
+<script src="/javascripts/jq.js"></script>
+<script src="/javascripts/jq.form.js"></script>
+<script src="/javascripts/jscolor.js"></script>
+<script src="/javascripts/html5.js"></script>
+<script src="/javascripts/ajax.js"></script>
+</body>
+</html>

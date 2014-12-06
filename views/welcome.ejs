@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<link rel="stylesheet" href="/stylesheets/welcome.css">  
+</head> 
+<body> 
+<div id="containner">
+<div id="div_login">
+<% if (!user) { %> 
+<a href="/login">登入</a> 
+<a href="/reg">注册</a>
+<% } else { %> 
+<span>您好！<%=user.name%></span>
+<a href="/logout">登出</a> 
+<% } %> </div> 
+<div id="div0"> 
+</div> 
+<div id="div1"> 
+</div> 
+<a href="/app"><div id="div2"> 
+</div></a>
+<div id="div3">
+<h1>自由的设计方式</h1>
+<span>&nbsp &nbsp 真正的所见即所得设计模式，只需要在画布上按照PS的设计方式设计好页面，即可获得完全相同的HTML静态页面,使您更自由的发挥您的设计本领，更舒适的享受您真正的设计！</span> 
+</div> 
+<div id="div4">
+<h1>简单的操作流程</h1>
+<span>&nbsp &nbsp 所有的代码将由Siiva为您自动生成，你只需要按一个设计师的习惯去做您喜欢的事情即可，当您完成您的设计稿，只需要点击左上角的<font color="#3BB7FF">生成</font>,剩下的交给Siiva就OK了！</span> 
+</div> 
+</div> 
+<div id="div5"> 
+<h1>健壮的CSS布局</h1>
+<span>&nbsp &nbsp 您无须担心生成的代码在不同的浏览器上表现相差甚远，Siiva的布局方式是基于层和绝对定位的方式实现的，只要您的目标浏览器支持JQuery即可！</span>	
+</div> 
+<div id="div6"> 
+</div> 
+</div> 
+<script  src="/javascripts/jq.js"></script> 
+<script  src="/javascripts/welcome.js"></script> 
+</body> 
+</html> 

@@ -1,0 +1,189 @@
+/********************************************public****************************************************/
+body{
+	margin:0;
+	padding:0;
+	background:#B8B8B8 url('/images/body_bg3.png');
+	background-attachment:fixed;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.button_cancle{
+	width: 45px;
+	height: 20px;
+	display: block;
+	margin: 0 auto;
+}
+.button_submit{
+	width: 45px;
+	height: 20px;
+	display: block;
+	margin: 0 auto;
+}
+/********************************************ENDpublic****************************************************/
+
+#login{
+	position: fixed;right: 0;top: 0;
+	width: 200px;
+	height: 36px;
+	background:#171717;
+	z-index: 999;
+	display: block;
+	color:white;
+	list-style: none;
+	font-size: 15px;
+	line-height: 36px;
+}
+/********************************************propertybar****************************************************/
+.propertybar{
+	position: fixed;left: 600px;top: 200px;
+	width: 300px;
+	background:#171717;
+	z-index: 999;
+	display: none;
+	color:white;
+}
+.propertybar input{
+	margin-top: 10px;
+}
+.propertybar .button_add{
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	display: block;
+	margin: 0 auto;
+}
+
+/********************************************ENDpropertybar****************************************************/
+
+#contrlbar{
+	position: fixed;right: 0;top: 80px;
+	width: 200px;
+	height: 500px;
+	background:#fff;
+	z-index: 999;
+	display: block;
+	color:white;
+}
+#contrller{
+	margin: 0;padding: 0;
+	list-style: none;
+	background: #171717;
+	width: 200px;
+	height: 60px;
+}
+#contrller li{
+	margin: 0;padding-left: 20px;
+	width: 200px;
+	height: 20px;
+	background: url('/images/contrlbutton1.png');
+	font-size: 15px;
+	line-height: 20px;
+	cursor: hand;
+}
+#showwindow1{
+	width: 200px;
+	height: 140px;
+	background: white;
+	display: block;
+	overflow: scroll;
+}
+#showwindow2{
+	width: 200px;
+	height: 140px;
+	background: white;
+	overflow: scroll;
+	list-style: none;
+	display: none;
+}
+#showwindow2 li{
+	width: 180px;
+	height: 14px;
+	font-size: 10px;
+	line-height: 14px;
+	color: black;
+	cursor: hand;
+	background: #aaa;
+	display: block;
+}
+#showbg{
+	width: 180px;
+	height: 400px;
+	background: black;
+	display: block;
+}
+#contrlwindow1 {
+	margin:0;padding: 0;
+	background: #171717;
+	width: 200px;
+	height: 300px;
+}
+#contrlwindow2 {
+	margin:0;padding: 0;
+	background: #171717;
+	width: 200px;
+	height: 300px;
+	display:none;
+}
+
+#Menu{
+	width: 100%;
+	height: 36px;
+	position: fixed;top: 0；left: 0;
+	background: #171717;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#Menu li{
+	float: left;
+	width: 50px;
+	height: 36px;
+	color:white;
+	line-height: 36px;
+	text-align: center;
+	border-right: 1px #fff solid;
+	cursor: hand;
+}
+#ToolBar{
+	width:80px;
+	height:500px;
+	background:#171717;
+	position:fixed;top:80px;left:0;
+	z-index:9999;
+	border:1px solid #171717;
+}
+#ToolBar table{
+	margin: 0 auto;
+	padding: 0;
+}
+#ToolBar td{
+	width: 20px;
+	height:20px;
+	background:#fff;
+}
+#showhide1{
+	width: 20px;
+	height: 20px;
+	background: #aa;
+	position: fixed;top: 310px;left: 80px; 
+}
+#showhide2{
+	width: 20px;
+	height: 20px;
+	background: #aa;
+	position: fixed;top: 310px;right: 200px; 
+}
+#canvas{
+	background: #F5F5F5;
+	margin-left: 330px;
+}
+#footer{
+	width:100%;
+	height:10px;
+	background:#171717;
+	position:fixed;bottom:0;left:0;
+	z-index:9999;
+	border-bottom:1px solid #fff;
+}

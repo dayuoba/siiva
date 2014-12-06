@@ -1,0 +1,63 @@
+body{ 
+margin:0;padding:0; 
+} 
+a{
+	text-decoration: none;
+	color: white;
+}
+h1{ 
+position:absolute;left: 450px; top: 0;
+margin: 0;padding: 0;
+color: #3BB7FF;
+font-size: 60px;
+line-height: 60px;
+text-align: top;
+}  
+#containner{ 
+position:relative; 
+} 
+#div_login{
+position:absolute;
+}
+#div_login span{
+color: white;
+}
+#div0{ 
+position:absolute; 
+} 
+#div1{ 
+position:absolute; 
+} 
+#div2{ 
+position:absolute; 
+} 
+#div3{ 
+position:absolute; 
+}
+#div3 span{
+position: absolute;left: 320px;top: 100px;
+width: 800px;
+height: 300px;
+font-size: 30px;
+}
+#div4{ 
+position:absolute; 
+}
+#div4 span{
+position: absolute;right: 320px;top: 100px;
+width: 800px;
+height: 300px;
+font-size: 30px;
+} 
+#div5{ 
+position:absolute; 
+}
+#div5 span{
+position: absolute;left: 320px;top: 100px;
+width: 800px;
+height: 300px;
+font-size: 30px;
+} 
+#div6{ 
+position:absolute; 
+} 

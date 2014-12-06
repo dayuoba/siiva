@@ -1,0 +1,167 @@
+html,body{
+	margin: 0;padding: 0;
+}
+body *{
+	margin: 0;padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+#xiangce_window{
+	width: 800px;
+	height: 600px;
+	display: block;
+	background: #aaa;
+	z-index: 9999;
+	/* margin-top: 80px; */
+}
+.property{
+	width: 800px;
+	height: 100px;
+	margin: 0;padding: 0;
+	display: block;
+	background: #fff;
+}
+.time{
+	width: 800px;
+	height: 150px;
+	margin: 0;padding: 0;
+	display: block;
+	background: #eee;
+	overflow: scroll;
+}
+.time .nav{
+	width: 1951px;
+	height: 30px;
+	margin: 0;padding: 0;
+	display: block;
+}
+.nav{
+	list-style: none;
+}
+.nav li{
+	float: left;
+}
+.nav .kedu{
+	width: 1800px;
+	height: 30px;
+	margin: 0;padding: 0;
+	display: block;
+	background: url("../images/xiangce/time_nav.png");
+}
+.nav .toolbar{
+	width: 150px;
+	height: 30px;
+	margin: 0;padding: 0;
+	display: block;
+	background: #fff;
+}
+.toolbar div{
+	float: left;
+}
+.add{
+	width: 30px;
+	height: 30px;
+	margin: 0;padding: 0;
+	display: block;
+	background: url("../images/xiangce/add.png");
+}
+.toolbar .tools{
+	width: 120px;
+	height: 30px;
+	background: #eee;
+}
+.tools a{
+	width: 20px;
+	height: 20px;
+	display: block;
+	margin-top: 5px;
+	margin-right: 5px;
+	background: #aaa;
+	float: right;
+}
+.tools .addImage{
+	background: url("../images/xiangce/img.png");
+}
+.tools .texiao{
+	background: url("../images/xiangce/texiao.png");
+}
+.tools .timeChange{
+	background: url("../images/xiangce/time.png");
+}
+.objects{
+	width: 1950px;
+	height: 300px;
+	margin: 0;padding: 0;
+	display: block;
+}
+.objects div{
+	float: left;
+}
+.objs_list{
+	width: 150px;
+	height: 300px;
+	display: block;
+	background: #fff;
+}
+.objs_list ul li{
+	height: 30px;
+	background: #aaa;
+}
+.objs_list ul li div{
+	float: left;
+}
+.objs_list .obj{
+	width: 30px;
+	height: 30px;
+	margin: 0;padding: 0;
+	display: block;
+	background: #eee;
+}
+.objs_list .tool{
+	width: 120px;
+	height: 30px;
+	margin: 0;padding: 0;
+	display: block;
+	background: #fff;
+}
+.tool a{
+	width: 20px;
+	height: 20px;
+	display: block;
+	margin-top: 5px;
+	margin-right: 5px;
+	background: url("../images/xiangce/change.png");
+	float: right;
+}
+.time_list{
+	width: 1800px;
+	height: 300px;
+	display: block;
+}
+.time_list ul li{
+	height: 30px;
+	background: url("../images/xiangce/kedu_bg.png");
+}
+.showtime{
+	height: 30px;
+	display: block;
+	background: #ddd;
+}
+.canvas{
+	width: 800px;
+	height: 350px;
+	margin: 0;padding: 0;
+	display: block;
+	background: #ccc;
+}
+.canvas .area{
+	width: 500px;
+	height: 350px;
+	margin: 0 auto;padding: 0;
+	display: block;
+	background: #fff;
+}
