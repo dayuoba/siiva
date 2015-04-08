@@ -2,4 +2,4 @@
 
 git add --all
 git commit -m "commit"
-git push auto master
+git push auth master
