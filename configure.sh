@@ -7,5 +7,5 @@ echo "type your remote repository address,eg:github.com/dayuoba/streaks"
 read remoteaddr
 echo "setting..."
 remote = "https://$name:$password@$remoteaddr"
-git remote add auto remote
+git remote add pic https://$name:$password@$remoteaddr
 echo "done"
