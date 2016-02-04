@@ -9,65 +9,25 @@ $('#containner').css({
 'background': '#' 
 }); 
 $('#div0').css({ 
-'left':75, 
-'top':69, 
-'width':152, 
-'height':103, 
-'background': '#B5FF36', 
+'left':229, 
+'top':249, 
+'width':263, 
+'height':273, 
+'background': 'false', 
 }); 
+$('#div0').append('<img src="./img/04-13-07-8.jpg" alt="img" width=263 height=273 >'); 
 $('#div1').css({ 
-'left':264, 
-'top':50, 
-'width':173, 
-'height':210, 
-'background': '#B5D8FF', 
+'left':532, 
+'top':253, 
+'width':148, 
+'height':129, 
+'background': '#73FFBE', 
 }); 
 $('#div2').css({ 
-'left':477, 
-'top':166, 
-'width':40, 
-'height':87, 
-'background': '#AE80FF', 
+'left':88, 
+'top':144, 
+'width':83, 
+'height':178, 
+'background': '#73FFBE', 
 }); 
-$('#div3').css({ 
-'left':553, 
-'top':204, 
-'width':12, 
-'height':29, 
-'background': '#1FFF69', 
-}); 
-$('#div4').css({ 
-'left':133, 
-'top':285, 
-'width':146, 
-'height':125, 
-'background': '#8FC7FF', 
-}); 
-$('#div5').css({ 
-'left':378, 
-'top':316, 
-'width':175, 
-'height':146, 
-'background': '#C48AFF', 
-}); 
-$('#div6').css({ 
-'left':291, 
-'top':295, 
-'width':53, 
-'height':84, 
-'background': '#73E8FF', 
-}); 
-$('#div7').css({ 
-'left':619, 
-'top':316, 
-'width':0, 
-'height':0, 
-'background': 'false', 
-}); 
-$('#div8').css({ 
-'left':191, 
-'top':211, 
-'width':0, 
-'height':0, 
-'background': 'false', 
-}); 
+$('#div2').append('<img src="./img/04-13-07-8.jpg" alt="img" width=83 height=178 >'); 

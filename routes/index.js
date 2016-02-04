@@ -4,7 +4,7 @@
 var express = require('express');
 var fs = require('fs');
 var filevm = require('../fileVM.js');
-var User = require('../modles/user.js');
+// var User = require('../modles/user.js');
 var crypto = require('crypto');
 var zip = require("node-native-zip");
 var archive = new zip()
@@ -151,9 +151,9 @@ module.exports = function(app) {
 		var containnerWidth = settings.__canvasWidth;
 		var containnerHeight = settings.__canvasHeight;
 		var containnerColor = settings.__canvasColor;
-		var cssFile = fs.createWriteStream('./public/upload/users/user1/css/css.css', 'w');
-		var htmFile = fs.createWriteStream('./public/upload/users/user1/index.htm', 'w');
-		var jsFile = fs.createWriteStream('./public/upload/users/user1/js/css.js', 'w');
+		var cssFile = fs.createWriteStream('./public/upload/users/user1/css/css.css', {flag: 'w'});
+		var htmFile = fs.createWriteStream('./public/upload/users/user1/index.htm', {flag: 'w'});
+		var jsFile = fs.createWriteStream('./public/upload/users/user1/js/css.js', {flag: 'w'});
 		filevm.cssFileWrite(cssFile, postData); //makecss
 		filevm.htmFileWrite(htmFile, postData); //makehtml
 		filevm.jsFileWrite(jsFile, postData, containnerWidth, containnerHeight, containnerColor); //makejs
