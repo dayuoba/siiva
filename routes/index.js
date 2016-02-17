@@ -17,7 +17,8 @@ module.exports = function(app) {
 	});
 	app.get("/app", function(req, res) {
 		res.render('app', {
-			title: 'Express'
+			title: 'Express',
+			user: 'test'
 		});
 		console.log("app");
 	});

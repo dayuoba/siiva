@@ -9,25 +9,23 @@ $('#containner').css({
 'background': '#' 
 }); 
 $('#div0').css({ 
-'left':229, 
-'top':249, 
-'width':263, 
-'height':273, 
+'left':46, 
+'top':89, 
+'width':322, 
+'height':217, 
 'background': 'false', 
 }); 
-$('#div0').append('<img src="./img/04-13-07-8.jpg" alt="img" width=263 height=273 >'); 
 $('#div1').css({ 
-'left':532, 
-'top':253, 
-'width':148, 
-'height':129, 
-'background': '#73FFBE', 
+'left':220, 
+'top':391, 
+'width':255, 
+'height':140, 
+'background': 'false', 
 }); 
 $('#div2').css({ 
-'left':88, 
-'top':144, 
-'width':83, 
-'height':178, 
-'background': '#73FFBE', 
+'left':468, 
+'top':258, 
+'width':0, 
+'height':0, 
+'background': 'false', 
 }); 
-$('#div2').append('<img src="./img/04-13-07-8.jpg" alt="img" width=83 height=178 >'); 
