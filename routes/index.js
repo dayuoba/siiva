@@ -4,7 +4,6 @@
 var express = require('express');
 var fs = require('fs');
 var filevm = require('../fileVM.js');
-// var User = require('../modles/user.js');
 var crypto = require('crypto');
 var zip = require("node-native-zip");
 var archive = new zip()
@@ -12,9 +11,9 @@ var archive = new zip()
 module.exports = function(app) {
 	app.get("/", function(req, res) {
 		res.render('welcome', {
-			title: 'Express'
+			title: 'Express',
+			user: 'test'
 		});
-		console.log("welcome");
 	});
 	app.get("/app", function(req, res) {
 		res.render('app', {
